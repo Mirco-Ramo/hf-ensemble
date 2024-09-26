@@ -1,0 +1,130 @@
+test:
+  en__it:
+    ugc:
+      src: &ugc_en UGC/airbnb_2022Q4/average_quality_10k/UGC.en
+    flores200:
+      src: &flores_en flores200/devtest/eng_Latn.devtest
+      ref: flores200/devtest/ita_Latn.devtest
+    ntrex:
+      src: &ntrex_en NTREX-128/newstest2019-src.eng.txt
+      ref: NTREX-128/newstest2019-ref.ita.txt
+
+  en__zh-CN:
+    ugc:
+      src: *ugc_en
+    flores200:
+      src: *flores_en
+      ref: flores200/devtest/zho_Hans.devtest
+    ntrex:
+      src: *ntrex_en
+      ref: NTREX-128/newstest2019-ref.zho-CN.txt
+
+  en__zh-TW:
+    ugc:
+      src: *ugc_en
+    flores200:
+      src: *flores_en
+      ref: flores200/devtest/zho_Hant.devtest
+    ntrex:
+      src: *ntrex_en
+      ref: NTREX-128/newstest2019-ref.zho-TW.txt
+
+  en__de:
+    ugc:
+      src: *ugc_en
+    flores200:
+      src: *flores_en
+      ref: flores200/devtest/deu_Latn.devtest
+    ntrex:
+      src: *ntrex_en
+      ref: NTREX-128/newstest2019-ref.deu.txt
+
+  en__fr:
+    ugc:
+      src: *ugc_en
+    flores200:
+      src: *flores_en
+      ref: flores200/devtest/fra_Latn.devtest
+    ntrex:
+      src: *ntrex_en
+      ref: NTREX-128/newstest2019-ref.fra.txt
+
+  en__ja:
+    ugc:
+      src: *ugc_en
+    flores200:
+      src: *flores_en
+      ref: flores200/devtest/jpn_Jpan.devtest
+    ntrex:
+      src: *ntrex_en
+      ref: NTREX-128/newstest2019-ref.jpn.txt
+
+  en__ko:
+    ugc:
+      src: *ugc_en
+    flores200:
+      src: *flores_en
+      ref: flores200/devtest/kor_Hang.devtest
+    ntrex:
+      src: *ntrex_en
+      ref: NTREX-128/newstest2019-ref.kor.txt
+
+  en__pt-PT:
+    ugc:
+      src: *ugc_en
+    flores200:
+      src: *flores_en
+      ref: &flores_pt_PT_pt-BR flores200/devtest/por_Latn.devtest
+    ntrex:
+      src: *ntrex_en
+      ref: NTREX-128/newstest2019-ref.por.txt
+
+  en__pt-BR:
+    ugc:
+      src: *ugc_en
+    flores200:
+      src: *flores_en
+      ref: *flores_pt_PT_pt-BR
+    ntrex:
+      src: *ntrex_en
+      ref: NTREX-128/newstest2019-ref.por-BR.txt
+
+  en__ru:
+    ugc:
+      src: *ugc_en
+    flores200:
+      src: *flores_en
+      ref: flores200/devtest/rus_Cyrl.devtest
+    ntrex:
+      src: *ntrex_en
+      ref: NTREX-128/newstest2019-ref.rus.txt
+
+  en__es-ES:
+    ugc:
+      src: *ugc_en
+    flores200:
+      src: *flores_en
+      ref: &flores_es-ES_es-419 flores200/devtest/spa_Latn.devtest
+    ntrex:
+      src: *ntrex_en
+      ref: NTREX-128/newstest2019-ref.spa.txt
+
+  en__es-419:
+    ugc:
+      src: *ugc_en
+    flores200:
+      src: *flores_en
+      ref: *flores_es-ES_es-419
+    ntrex:
+      src: *ntrex_en
+      ref: NTREX-128/newstest2019-ref.spa-MX.txt
+
+  en__nl:
+    ugc:
+      src: *ugc_en
+    flores200:
+      src: *flores_en
+      ref: flores200/devtest/nld_Latn.devtest
+    ntrex:
+      src: *ntrex_en
+      ref: NTREX-128/newstest2019-ref.nld.txt
